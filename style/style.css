@@ -28,12 +28,23 @@
     letter-spacing: 0%;
     text-align: center;
 }
-.title{
+
+.title {
     color: rgb(255, 255, 255);
-font-family: Work Sans;
-font-size: 64px;
-font-weight: 700;
-line-height: 80px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
 }
