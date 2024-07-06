@@ -18,6 +18,7 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 
 }
 
@@ -118,17 +119,31 @@
 
 .card-container {
     margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
 
 }
 
 .card {
     max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card .image-box {
     width: 424px;
 }
 
-.card .image-box img{
+.card .image-box img {
     width: 100%;
+}
+
+.card .shop {
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
 }
